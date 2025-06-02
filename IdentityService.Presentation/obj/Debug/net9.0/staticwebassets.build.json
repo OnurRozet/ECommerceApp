@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "7nrA4tEGltgWtqnNz6gqeHddIz70KuD4lbezquaxemQ=",
+  "Source": "IdentityService.Presentation",
+  "BasePath": "_content/IdentityService.Presentation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
