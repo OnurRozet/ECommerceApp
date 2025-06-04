@@ -31,7 +31,11 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Workspace\\ECommerceApp\\IdentityService\\IdentityService.Domain\\IdentityService.Domain.csproj": {
+                "projectPath": "C:\\Workspace\\ECommerceApp\\IdentityService\\IdentityService.Domain\\IdentityService.Domain.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -96,11 +100,7 @@
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
-            "projectReferences": {
-              "C:\\Workspace\\ECommerceApp\\IdentityService\\IdentityService.Application\\IdentityService.Application.csproj": {
-                "projectPath": "C:\\Workspace\\ECommerceApp\\IdentityService\\IdentityService.Application\\IdentityService.Application.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {
@@ -166,8 +166,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Workspace\\ECommerceApp\\IdentityService\\IdentityService.Domain\\IdentityService.Domain.csproj": {
-                "projectPath": "C:\\Workspace\\ECommerceApp\\IdentityService\\IdentityService.Domain\\IdentityService.Domain.csproj"
+              "C:\\Workspace\\ECommerceApp\\IdentityService\\IdentityService.Application\\IdentityService.Application.csproj": {
+                "projectPath": "C:\\Workspace\\ECommerceApp\\IdentityService\\IdentityService.Application\\IdentityService.Application.csproj"
               }
             }
           }
@@ -188,9 +188,49 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "dependencies": {
+            "BCrypt": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.5, )"
+            },
+            "Microsoft.IdentityModel.Tokens": {
+              "target": "Package",
+              "version": "[8.12.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[8.12.0, )"
+            },
+            "System.Security.Cryptography.Cng": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

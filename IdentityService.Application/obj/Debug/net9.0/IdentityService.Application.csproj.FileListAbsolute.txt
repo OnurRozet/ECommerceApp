@@ -9,3 +9,8 @@ C:\Workspace\ECommerceApp\IdentityService\IdentityService.Application\obj\Debug\
 C:\Workspace\ECommerceApp\IdentityService\IdentityService.Application\obj\Debug\net9.0\refint\IdentityService.Application.dll
 C:\Workspace\ECommerceApp\IdentityService\IdentityService.Application\obj\Debug\net9.0\IdentityService.Application.pdb
 C:\Workspace\ECommerceApp\IdentityService\IdentityService.Application\obj\Debug\net9.0\ref\IdentityService.Application.dll
+C:\Workspace\ECommerceApp\IdentityService\IdentityService.Application\bin\Debug\net9.0\IdentityService.Domain.dll
+C:\Workspace\ECommerceApp\IdentityService\IdentityService.Application\bin\Debug\net9.0\IdentityService.Domain.pdb
+C:\Workspace\ECommerceApp\IdentityService\IdentityService.Application\obj\Debug\net9.0\IdentityService.Application.csproj.AssemblyReference.cache
+C:\Workspace\ECommerceApp\IdentityService\IdentityService.Application\obj\Debug\net9.0\IdentityService.Application.sourcelink.json
+C:\Workspace\ECommerceApp\IdentityService\IdentityService.Application\obj\Debug\net9.0\Identity.52144512.Up2Date
